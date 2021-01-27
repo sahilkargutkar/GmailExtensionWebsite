@@ -1,0 +1,157 @@
+.PricingContainer{
+
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+
+
+
+}
+.Navigationtab{
+
+    margin-top: 60px;
+
+
+
+}
+
+.Navigationtab >li {
+
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+.Navigationtab >li:active{
+
+    
+    border-bottom: 3px solid red;
+
+
+}
+
+.PricingWrapper{
+    justify-content: center;
+    
+
+
+
+
+}
+.Navigationtab{
+    display:flex;
+    justify-content: center;
+
+
+
+
+}
+
+.li{
+    margin-left: 15px;
+    padding-left: 20px;
+    flex:1;
+    
+
+
+}
+.BillingRowWrapper{
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    
+
+
+
+}
+
+.BillingColumnWrapper{
+
+   
+    padding:10px;
+    margin: 30px;
+    padding: 20px;
+
+
+}
+
+.BillingColumnWrapper >span ,h2,ul{
+
+    margin-top: 10px;
+    padding: 10px;
+
+
+
+}
+.h2{
+    padding: 20px;
+
+
+
+}
+
+.BillingColumnWrapper > span{
+
+    color: grey;
+
+
+}
+
+.BillingColumnWrapper > h3{
+
+    padding: 20px;
+    font-size: 25px ;
+
+
+
+}
+.BillingColumnWrapper > button{
+
+    padding-top: 0;
+    padding-bottom: 10px;
+
+
+}
+
+
+
+.BillingColumnWrapper ,.h2,.h1,.h3,.span,.li{
+
+    padding: 40px;
+    margin: 30px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+.BillingRowContainer >span{
+    padding: 30px;
+    margin: 20px;
+
+
+}
+.BillingColumnWrapper{
+    height:600px;
+    box-shadow: 0 10px 50px rgb(0,0,0,8%),0 13px 45px rgb(0,0,0,8%);
+    margin-bottom: 60px;
+    width: 380px;
+
+
+}
+
+
+
+.BillingColumnContainer{
+
+    height: 600px;
+    width: 400px;
+
+
+}
+
+
+.BillingRowContainer{
+
+    margin-bottom: 100px;
+    /* padding: 20px; */
+
+}

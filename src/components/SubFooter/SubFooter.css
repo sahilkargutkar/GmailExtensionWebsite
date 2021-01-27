@@ -1,0 +1,55 @@
+.SubFooterContainer{
+    height: auto;
+    color: #000;
+    margin-bottom: 40px;
+
+    padding-bottom: 20px;
+    text-align: center;
+
+
+}
+
+
+
+
+ .SubFooterContainer > h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+
+}
+.SubFooterContainer > h1{
+
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+
+}
+.p{
+
+    font-size: 30px;
+    margin-bottom: 20px;
+
+    
+}
+.h2{
+
+    padding: 10px;
+
+
+}
+.SubFooterContainer>p{
+
+    font-size: 30px;
+    margin-bottom: 20px;
+
+
+
+}
+
+
+

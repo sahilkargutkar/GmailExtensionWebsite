@@ -1,0 +1,27 @@
+
+.stn{
+
+    color:#000;
+    background-color:rgb(255, 255, 255);
+    border-radius: 50px;
+    border: black 2px solid;
+    /* height: 35px; */
+    /* width: 10%; */
+    margin: 20px;
+    padding:8px 20px;
+    outline:none;
+    /* border:none; */
+    font-size: 18px;
+    cursor:pointer;
+}
+
+
+/* padding:8px 20px; */
+/* border-radius:50px; */
+/* outline:none; */
+/* border:none; */
+/* font-size: 18px; */
+/* color:aliceblue; */
+/* cursor:pointer; */
+/* background-color:red; */
+

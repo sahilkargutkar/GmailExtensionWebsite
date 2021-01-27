@@ -1,0 +1,133 @@
+
+
+.navbar-logo {
+  color: #000;
+  margin-right: 300px;
+  font-weight: bold;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.pricing{
+
+  font-weight: bold;
+
+
+}
+
+.has-sub-menu >Link{
+
+  font-weight: bold;
+
+
+}
+
+.has-sub-menu>a {
+
+  font-weight: bold;
+
+
+}
+a {
+  text-decoration: none;
+}
+
+a, span {
+  display: inline-block;
+}
+
+header {
+  position: relative;
+  z-index: 9998;
+}
+
+.menu > ul {
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  
+  font-size: 0; 
+}
+
+.menu > ul > li {
+  background-color:#fff;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+ul li a {
+  color: #000;
+  
+  font-size: 20px;
+  display: block;
+}
+
+ul li:hover a {
+  color: #333;
+}
+
+/* .has-sub-menu > a {
+position: relative;
+} */
+
+.has-sub-menu > a::after {
+  content: '';
+  border: 5px solid transparent;
+  border-top-color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.has-sub-menu:hover > a::after {
+  border-top-color: #333;
+}
+
+.sub-menu-wrapper {
+  position: absolute;
+  top: 65px;
+  left: -9999px;
+  background: #fff;
+  display: flex;
+  opacity: 0;
+  transition: top .5s, opacity .5s;
+  -webkit-transition: top .5s, opacity .5s;
+  -moz-transition: top .5s, opacity .5s;
+  -ms-transition: top .5s, opacity .5s;
+  -o-transition: top .5s, opacity .5s;
+}
+
+.sub-menu {
+  padding: 20px 30px;
+  width: 25%;
+  text-align: left;
+}
+
+.sub-menu-heading {
+  border-bottom: 1px solid #ff5722;
+  margin-bottom: 10px;
+  cursor: initial;
+}
+
+.sub-menu a:hover {
+  color: #ff5722;
+}
+
+.sub-menu-heading a:hover {
+  color: initial;
+}
+
+.sub-menu-wrapper a {
+  color: #ff5722;
+}
+
+.has-sub-menu:hover > .sub-menu-wrapper {
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 65px;
+}
+
